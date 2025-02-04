@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collision Detection</title>
+</head>
+<body>
+    <h1>Upload a Video for Collision Detection</h1>
+
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="video/*" required>
+        <button type="submit">Upload and Process</button>
+    </form>
+
+    {% if collision_detected %}
+        <h2 style="color: red;">⚠️ Collision Detected! ⚠️</h2>
+    {% endif %}
+
+    {% if collision_detected is not none %}
+        <p><a href="{{ url_for('download_file', filename='output_video.mp4') }}">Download Processed Video</a></p>
+    {% endif %}
+</body>
+</html>
