@@ -3,6 +3,7 @@
 Usage:
 Create a virtual environment and install requirements.txt. This system was created with Python 3.12.5. 
 Download model from this link: https://www.kaggle.com/models/lotuskshetri/vehicle-collision-detection. Keep it in the same directory.
+To receive notification from Twilio, create twilio acc and sandbox environment.
 
 Run the system with "uvicorn main:app --reload" and "streamlit run stream2.py" in another terminal
 
