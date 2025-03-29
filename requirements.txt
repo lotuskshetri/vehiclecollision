@@ -1,0 +1,9 @@
+fastapi==0.115.6
+uvicorn==0.32.1
+python-multipart==0.0.19
+opencv-python==4.11.0.86
+torch==2.5.1+cu124
+torchvision==0.20.1+cu124
+twilio==9.4.6
+streamlit==1.41.1
+requests==2.31.0

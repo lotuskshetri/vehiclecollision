@@ -1,1 +1,1 @@
-# vehiclecollision
+# Vehicle Collision detection and notification system
