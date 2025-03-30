@@ -9,3 +9,5 @@ Upto 6 vidoes can be uploaded at once. The videos are forced to run at 1fps. Not
 Run the system with "uvicorn main:app --reload" and "streamlit run stream2.py" in another terminal
 
 The model was built with Faster R-CNN architecture. It was pre-trained for vehicle detection with 4 classes then fine-tuned with 5 classes, the additional class being collision. 
+
+![image](https://github.com/user-attachments/assets/816550f4-d58a-4ea6-9cc1-6954a6cec746)
