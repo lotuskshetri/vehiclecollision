@@ -11,3 +11,5 @@ Run the system with "uvicorn main:app --reload" and "streamlit run stream2.py" i
 The model was built with Faster R-CNN architecture. It was pre-trained for vehicle detection with 4 classes then fine-tuned with 5 classes, the additional class being collision. 
 
 
+![image](https://github.com/user-attachments/assets/4d0d0aee-5869-4dd7-bca7-e316c0977a4a)
+
